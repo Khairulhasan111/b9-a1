@@ -274,3 +274,83 @@
  }
 
  /* offer section ends here */
+
+ .sale-content-container {
+     text-align: center;
+ }
+
+ .sale-title {
+     color: #070211;
+
+     font-size: 24px;
+
+     font-weight: 500;
+     margin-bottom: 0;
+
+ }
+
+ .sale-title-one {
+     color: #070211;
+
+     font-size: 42px;
+
+     font-weight: 900;
+     margin-top: 15px;
+
+ }
+
+ #sale-highlight {
+     color: #F00;
+     text-align: center;
+
+     font-size: 42px;
+
+     font-weight: 900;
+
+ }
+
+ .sale-des {
+     color: rgba(7, 2, 17, 0.60);
+     text-align: center;
+
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 500;
+
+ }
+
+ .sale-image-container {
+     text-align: right;
+     position: relative;
+ }
+
+
+
+ .rec-1 {
+
+     text-align: right;
+     width: 400px;
+     height: 400px;
+
+ }
+
+ .rec-2 {
+     width: 100%;
+     height: 200px;
+ }
+
+ .overlay-1 {
+     position: absolute;
+     right: 250px;
+     top: 60px;
+ }
+
+ .overlay-2 {
+     position: absolute;
+     top: 80px;
+     right: 700px;
+     width: 500px;
+     height: 500px;
+     fill: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
+
+ }
