@@ -32,12 +32,11 @@
  }
 
 
- body {
-     max-width: 1300px;
-     margin: 0 auto;
- }
+ body {}
 
  body section {
+     max-width: 1300px;
+     margin: 0 auto;
      margin-top: 100px;
 
  }
@@ -353,4 +352,208 @@
      height: 500px;
      fill: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%);
 
+ }
+
+ /* sale section ends here */
+
+
+ /* product section starts here */
+
+ .product-container {
+     margin-top: 40px;
+     gap: 20px;
+ }
+
+ .product-row-one {
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .product-row-two {
+     margin-top: 40px;
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .product {
+     width: 400px;
+     height: 450px;
+     border-radius: 16px;
+
+
+ }
+
+ .product-title {
+     color: #F00;
+     margin-bottom: 8px;
+     font-size: 24px;
+
+     font-weight: 500;
+
+ }
+
+ .product-title-one {
+     color: #070211;
+
+     font-size: 38px;
+
+     font-weight: 900;
+     margin-top: 0;
+     margin-bottom: 0;
+
+
+ }
+
+ .product-des {
+     color: rgba(7, 2, 17, 0.60);
+
+     font-size: 20px;
+
+     font-weight: 400;
+     margin-top: 15px;
+
+ }
+
+
+ /* product section ends here */
+
+ /* subscribe section starts here */
+
+ .subscribe-section {
+     width: 1300px;
+     /* height: 616px; */
+     border-radius: 16px;
+     background: rgba(255, 0, 0, 0.05);
+     text-align: center;
+
+
+ }
+
+ .subscribe-container {
+     padding: 80px 220px;
+ }
+
+
+ .type-area {
+     width: 300px;
+     height: 42px;
+     border-radius: 50px 0 0px 50px;
+     background: #FFF;
+     /* padding: 10px 20px; */
+     border: 0;
+
+     color: rgba(7, 2, 17, 0.30);
+     text-align: center;
+
+     font-size: 15px;
+
+     font-weight: 400;
+     margin-right: 0;
+
+
+ }
+
+ .click-area {
+     width: 150px;
+     height: 43px;
+     border-radius: 0px 50px 50px 0px;
+     background: #F00;
+     padding: 10px 20px;
+     border: 0;
+
+     color: #FFF;
+     text-align: center;
+
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     margin-left: 0;
+
+
+ }
+
+ .btn-area-one {
+     margin-right: -1px;
+ }
+
+ .btn-area-two {
+     margin-left: -4px;
+ }
+
+ .subs-title {
+     color: #070211;
+     text-align: center;
+
+     font-size: 38px;
+
+     font-weight: 900;
+     margin-top: 30px;
+     margin-bottom: 0;
+
+
+ }
+
+ .subs-des {
+     color: rgba(7, 2, 17, 0.60);
+     text-align: center;
+
+     font-size: 15px;
+
+     font-weight: 400;
+     margin-top: 20px;
+
+ }
+
+ /* subscribe section ends here */
+
+
+ /* footer section starts here */
+
+ footer {
+     width: 100%;
+     /* height: 600px; */
+     background: #070211;
+     margin-top: 100px;
+     border-radius: 2px;
+ }
+
+ .footer-container {
+     color: white;
+ }
+
+ .footer-row-one {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 80px 140px 50px;
+ }
+
+ .row-one-content {
+     color: #FFF;
+
+     font-size: 20px;
+
+     font-weight: 500;
+ }
+
+ .footer-row-two {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 200px;
+ }
+
+ .copyright {
+    padding: 60px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
